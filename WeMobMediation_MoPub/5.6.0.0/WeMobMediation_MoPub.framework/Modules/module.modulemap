@@ -1,0 +1,6 @@
+framework module WeMobMediation_MoPub {
+  umbrella header "WeMobMediation_MoPub.h"
+
+  export *
+  module * { export * }
+}
