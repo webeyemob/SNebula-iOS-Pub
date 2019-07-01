@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/webeyemob/WeSdk-iOS-Pub"
   spec.license      = { :type => 'MIT' }
   spec.author       = "Access"
-  spec.platform     = :ios, "6.0"
+  spec.platform     = :ios, "9.0"
   spec.source       = { :git => "https://github.com/webeyemob/WeSdk-iOS-Pub.git", :tag => "mopub-#{spec.version}" }
   spec.vendored_frameworks  = "WeMobMediation_MoPub/5.6.0.0/WeMobMediation_MoPub.framework"
   spec.dependency 'mopub-ios-sdk', '5.6.0'
