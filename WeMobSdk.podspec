@@ -6,9 +6,6 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => 'MIT' }
   spec.author       = "Access"
   spec.platform     = :ios, "6.0"
-  spec.source       = { :git => "https://github.com/webeyemob/WeSdk-iOS-Pub.git", :tag => #{spec.version} }
-  spec.vendored_frameworks  = "WeMobSdk/#{spec.version}/WeMobSdk.framework"
-  spec..resource_bundles = {
-    'WeMobSdk' => ['WeMobSdk/#{spec.version}/WeMobSdk.framework/WeMobSDK.bundle']
-  }
+  spec.source       = { :git => "https://github.com/webeyemob/WeSdk-iOS-Pub.git", :tag => "1.0.2" }
+  spec.vendored_frameworks  = "WeMobSdk/1.0.2/WeMobSdk.framework"
 end
