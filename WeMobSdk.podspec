@@ -8,5 +8,5 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "6.0"
   spec.source       = { :git => "https://github.com/webeyemob/WeSdk-iOS-Pub.git", :tag => "#{spec.version}" }
   spec.vendored_frameworks  = "WeMobSdk/#{spec.version}/WeMobSdk.framework"
-  spec.resource = 'WeMobSdk/#{spec.version}/WeMobSDK.bundle'
+  spec.resource = 'WeMobSdk/1.0.5/WeMobSDK.bundle'
 end
