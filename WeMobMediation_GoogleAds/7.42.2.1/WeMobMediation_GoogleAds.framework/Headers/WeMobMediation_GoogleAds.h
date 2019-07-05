@@ -2,7 +2,7 @@
 //  WeMobMediation_GoogleAds.h
 //  WeMobMediation_GoogleAds
 //
-//  Created by 王航 on 2018/9/13.
+//  Created by wanghang on 2018/9/13.
 //
 
 #import <UIKit/UIKit.h>

@@ -1,6 +1,0 @@
-framework module WeMobMediation_AdMob {
-  umbrella header "WeMobMediation_AdMob.h"
-
-  export *
-  module * { export * }
-}

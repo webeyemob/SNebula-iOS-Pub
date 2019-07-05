@@ -1,6 +1,6 @@
 //
 //  WeMobAdMobHelper.h
-//  WeMobMediation_AdMob
+//  WeMobMediation_GoogleAds
 //
 
 #import <Foundation/Foundation.h>
@@ -9,7 +9,8 @@
 
 @interface WeMobAdMobHelper : NSObject
 
-+(GADRequest *)getRequest;
++(GADRequest *)getAdMobRequest;
++(GADRequest *)getDfpRequest;
 
 + (void)init:(NSString *)appId;
 + (NSString *)getAppId:(NSDictionary *)serverExtras;

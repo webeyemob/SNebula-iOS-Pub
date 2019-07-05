@@ -1,0 +1,6 @@
+framework module WeMobMediation_GoogleAds {
+  umbrella header "WeMobMediation_GoogleAds.h"
+
+  export *
+  module * { export * }
+}
