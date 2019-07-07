@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
   spec.name         = "WeMobMediation_Toutiao"
   spec.version      = "2.1.0.1.0"
-  spec.summary      = "Toutiao Adapters for mediating through Access WeMobSdk."
+  spec.summary      = "Toutiao Adapters for mediating through WeSdk."
   spec.homepage     = "https://github.com/webeyemob/WeSdk-iOS-Pub"
   spec.license      = { :type => 'MIT' }
   spec.author       = "Access"

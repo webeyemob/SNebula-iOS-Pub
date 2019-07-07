@@ -1,13 +1,13 @@
 Pod::Spec.new do |spec|
   spec.name         = "WeMobMediation_GoogleAds"
   spec.version      = "7.42.2.1"
-  spec.summary      = "GoogleAds Adapters for mediating through Access WeMobSdk."
+  spec.summary      = "GoogleAds Adapters for mediating through WeSdk."
   spec.homepage     = "https://github.com/webeyemob/WeSdk-iOS-Pub"
   spec.license      = { :type => 'MIT' }
   spec.author       = "Access"
   spec.platform     = :ios, "6.0"
   spec.source       = { :git => "https://github.com/webeyemob/WeSdk-iOS-Pub.git", :tag => "googleads-#{spec.version}" }
-  spec.vendored_frameworks  = "WeMobMediation_GoogleAds/7.42.2.1/WeMobMediation_GoogleAds.framework"
+  spec.vendored_frameworks  = "WeMobMediation_GoogleAds/#{spec.version}/WeMobMediation_GoogleAds.framework"
   spec.dependency "Google-Mobile-Ads-SDK", "7.42.2"
   spec.dependency "WeMobSdk", "~> 1.0.1"
 end

@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
   spec.name         = "WeMobMediation_Facebook"
   spec.version      = "5.4.0.0"
-  spec.summary      = "Facebook Adapters for mediating through Access WeMobSdk."
+  spec.summary      = "Facebook Adapters for mediating through WeSdk."
   spec.homepage     = "https://github.com/webeyemob/WeSdk-iOS-Pub"
   spec.license      = { :type => 'MIT' }
   spec.author       = "Access"

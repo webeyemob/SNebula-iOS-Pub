@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
   spec.name         = "WeMobMediation_Nend"
   spec.version      = "5.1.1.2"
-  spec.summary      = "Nend Adapters for mediating through Access WeMobSdk."
+  spec.summary      = "Nend Adapters for mediating through WeSdk."
   spec.homepage     = "https://github.com/webeyemob/WeSdk-iOS-Pub"
   spec.license      = { :type => 'MIT' }
   spec.author       = "Access"
