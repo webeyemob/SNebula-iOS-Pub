@@ -33,8 +33,6 @@
 @property(nonatomic, assign) WeMobRewardVideoDidFailedToRewardCallback didFailedToRewardCallback;
 /// Unity End
 
-- (void)log:(NSString *)message;
-
 - (void)setCL:(int)cacheCount;
 - (void)loadAd;
 - (BOOL)isReady;

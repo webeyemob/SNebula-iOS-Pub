@@ -1,6 +1,0 @@
-framework module WeMobMediation_Nend {
-  umbrella header "WeMobMediation_Nend.h"
-
-  export *
-  module * { export * }
-}

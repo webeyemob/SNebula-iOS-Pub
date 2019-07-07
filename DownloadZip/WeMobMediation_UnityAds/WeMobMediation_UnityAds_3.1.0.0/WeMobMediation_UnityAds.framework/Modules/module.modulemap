@@ -1,6 +1,0 @@
-framework module WeMobMediation_UnityAds {
-  umbrella header "WeMobMediation_UnityAds.h"
-
-  export *
-  module * { export * }
-}

@@ -21,3 +21,4 @@ FOUNDATION_EXPORT const unsigned char WeMobSdkVersionString[];
 #import <WeMobSdk/WeMobRewardItem.h>
 #import <WeMobSdk/WeMobNativeAd.h>
 #import <WeMobSdk/WeMobAdError.h>
+#import <WeMobSdk/WeMobPluginUtil.h>

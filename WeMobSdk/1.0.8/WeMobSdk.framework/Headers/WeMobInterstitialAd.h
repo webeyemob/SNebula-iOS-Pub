@@ -30,8 +30,6 @@
 @property(nonatomic, assign) WeMobInterstitialWillLeaveApplicationCallback willLeaveCallback;
 /// Unity End
 
-- (void)log:(NSString *)message;
-
 - (void)setCL:(int)cacheCount;
 - (void)loadAd;
 - (BOOL)isReady;
