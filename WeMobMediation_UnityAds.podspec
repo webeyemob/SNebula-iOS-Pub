@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
   spec.summary      = "UnityAds Adapters for mediating through WeSdk."
   spec.homepage     = "https://github.com/webeyemob/WeSdk-iOS-Pub"
   spec.license      = { :type => 'MIT' }
-  spec.author       = "Access"
+  spec.author       = "WeSdk"
   spec.platform     = :ios, "8.1"
   spec.source       = { :git => "https://github.com/webeyemob/WeSdk-iOS-Pub.git", :tag => "unityads-#{spec.version}" }
   spec.vendored_frameworks  = "WeMobMediation_UnityAds/#{spec.version}/WeMobMediation_UnityAds.framework"
