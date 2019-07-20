@@ -1,10 +1,10 @@
 Pod::Spec.new do |spec|
   spec.name         = "WeMobSdk"
-  spec.version      = "1.2.0"
-  spec.summary      = "WeMobSdk is Access Mobile Ad SDK."
+  spec.version      = "1.2.1"
+  spec.summary      = "WeMobSdk is Mobile Ad SDK."
   spec.homepage     = "https://github.com/webeyemob/WeSdk-iOS-Pub"
   spec.license      = { :type => 'MIT' }
-  spec.author       = "Access"
+  spec.author       = "WeSdk"
   spec.platform     = :ios, "8.0"
   spec.source       = { :git => "https://github.com/webeyemob/WeSdk-iOS-Pub.git", :tag => "wemobsdk-#{spec.version}" }
   spec.vendored_frameworks  = "WeMobSdk/#{spec.version}/WeMobSdk.framework"
