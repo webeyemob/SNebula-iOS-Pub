@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
   spec.summary      = "Amazon Adapters for mediating through WeSdk."
   spec.homepage     = "https://github.com/webeyemob/WeSdk-iOS-Pub"
   spec.license      = { :type => 'MIT' }
-  spec.author       = "Access"
+  spec.author       = "WeSdk"
   spec.platform     = :ios, "10.0"
   spec.source       = { :git => "https://github.com/webeyemob/WeSdk-iOS-Pub.git", :tag => "amazon-#{spec.version}" }
   spec.vendored_frameworks  = "WeMobMediation_Amazon/#{spec.version}/WeMobMediation_Amazon.framework"
