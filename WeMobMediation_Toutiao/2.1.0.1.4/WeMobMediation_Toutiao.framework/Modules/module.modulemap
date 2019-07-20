@@ -1,0 +1,6 @@
+framework module WeMobMediation_Toutiao {
+  umbrella header "WeMobMediation_Toutiao.h"
+
+  export *
+  module * { export * }
+}
