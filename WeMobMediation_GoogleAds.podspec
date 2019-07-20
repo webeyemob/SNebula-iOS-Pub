@@ -8,6 +8,6 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "8.0"
   spec.source       = { :git => "https://github.com/webeyemob/WeSdk-iOS-Pub.git", :tag => "googleads-#{spec.version}" }
   spec.vendored_frameworks  = "WeMobMediation_GoogleAds/#{spec.version}/WeMobMediation_GoogleAds.framework"
-  spec.dependency "Google-Mobile-Ads-SDK", "7.42.2"
+  spec.dependency "Google-Mobile-Ads-SDK", "~> 7.42.2"
   spec.dependency "WeMobSdk", "~> 1.2.0"
 end
