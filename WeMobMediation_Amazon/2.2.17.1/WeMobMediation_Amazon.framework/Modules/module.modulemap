@@ -1,0 +1,6 @@
+framework module WeMobMediation_Amazon {
+  umbrella header "WeMobMediation_Amazon.h"
+
+  export *
+  module * { export * }
+}
