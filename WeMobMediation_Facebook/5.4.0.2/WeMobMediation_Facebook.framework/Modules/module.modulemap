@@ -1,6 +1,0 @@
-framework module WeMobMediation_Facebook {
-  umbrella header "WeMobMediation_Facebook.h"
-
-  export *
-  module * { export * }
-}

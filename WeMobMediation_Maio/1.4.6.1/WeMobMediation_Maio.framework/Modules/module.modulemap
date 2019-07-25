@@ -1,6 +1,0 @@
-framework module WeMobMediation_Maio {
-  umbrella header "WeMobMediation_Maio.h"
-
-  export *
-  module * { export * }
-}
