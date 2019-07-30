@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "WeMobMediation_AppLovin"
-  spec.version      = "2.2.17.1"
+  spec.version      = "6.8.0.0"
   spec.summary      = "AppLovin Adapters for mediating through WeSdk."
   spec.homepage     = "https://github.com/webeyemob/WeSdk-iOS-Pub"
   spec.license      = { :type => 'MIT' }
