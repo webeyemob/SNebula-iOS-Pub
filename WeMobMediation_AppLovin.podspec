@@ -6,8 +6,8 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => 'MIT' }
   spec.author       = "WeSdk"
   spec.platform     = :ios, "9.0"
-  spec.source       = { :git => "https://github.com/webeyemob/WeSdk-iOS-Pub.git", :tag => "amazon-#{spec.version}" }
+  spec.source       = { :git => "https://github.com/webeyemob/WeSdk-iOS-Pub.git", :tag => "applovin-#{spec.version}" }
   spec.vendored_frameworks  = "WeMobMediation_AppLovin/#{spec.version}/WeMobMediation_AppLovin.framework"
-  spec.dependency 'AmazonAdSDK', '2.0.16'
+  spec.dependency 'AppLovinSDK', '6.8.0'
   spec.dependency "WeMobSdk", "~> 1.2.1"
 end
