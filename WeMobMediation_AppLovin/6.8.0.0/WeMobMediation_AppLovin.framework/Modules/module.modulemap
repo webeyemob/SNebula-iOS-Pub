@@ -1,0 +1,6 @@
+framework module WeMobMediation_AppLovin {
+  umbrella header "WeMobMediation_AppLovin.h"
+
+  export *
+  module * { export * }
+}
