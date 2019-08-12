@@ -1,6 +1,0 @@
-framework module WeMobSdk {
-  umbrella header "WeMobSdk.h"
-
-  export *
-  module * { export * }
-}
