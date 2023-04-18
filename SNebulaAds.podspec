@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
   spec.author       = "SNebulaAds"
   spec.platform     = :ios, "12.0"
   spec.source       = { :http => "https://github.com/webeyemob/SNebula-iOS-Pub/raw/master/SNebulaAds/SNebulaAds_#{spec.version}.zip" }
-  spec.vendored_frameworks  = "SNebulaAds_#{spec.version}/SNebulaAds.xcframework", "SNebulaAds_#{spec.version}/SNebulaAdMediation_NathAds.xcframework"
+  spec.vendored_frameworks  = "SNebulaAds_#{spec.version}/SNebulaAds.xcframework"
   spec.resource     = "SNebulaAds_#{spec.version}/SNebulaAds.bundle"
   spec.dependency 'NathAds', '~> 1.1.9'
   spec.dependency 'DataFlyer'
