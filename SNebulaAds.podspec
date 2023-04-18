@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/webeyemob/SNebula-iOS-Pub"
   spec.license      = { :type => 'MIT', :file => "SNebulaAds_#{spec.version}/LICENSE" }
   spec.author       = "SNebulaAds"
-  spec.platform     = :ios, "9.0"
+  spec.platform     = :ios, "12.0"
   spec.source       = { :http => "https://github.com/webeyemob/SNebula-iOS-Pub/tree/master/SNebulaAds/SNebulaAds_#{spec.version}.zip" }
   spec.vendored_frameworks  = "SNebulaAds_#{spec.version}/SNebulaAds.xcframework", "SNebulaAds_#{spec.version}/SNebulaAdMediation_NathAds.framework"
   spec.resource     = "SNebulaAds_#{spec.version}/SNebulaAds.bundle"
