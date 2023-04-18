@@ -6,7 +6,7 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => 'MIT', :file => "SNebulaAdMediation_GDT_#{spec.version}/LICENSE" }
   spec.author       = "SNebulaAds"
   spec.platform     = :ios, "12.0"
-  spec.source       = { :http => "https://github.com/webeyemob/SNebula-iOS-Pub/SNebulaAdMediation_GDT/SNebulaAdMediation_GDT_#{spec.version}.zip" }
+  spec.source       = { :http => "https://github.com/webeyemob/SNebula-iOS-Pub/blob/master/SNebulaAdMediation_GDT/SNebulaAdMediation_GDT_#{spec.version}.zip" }
   spec.vendored_frameworks  = "SNebulaAdMediation_GDT_#{spec.version}/SNebulaAdMediation_GDT.xcframework"
   spec.dependency 'GDTMobSDK', '4.14.01'
   spec.dependency "SNebulaAds"
