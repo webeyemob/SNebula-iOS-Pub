@@ -1,0 +1,6 @@
+framework module SNebulaAds {
+  umbrella header "SNebulaAds.h"
+
+  export *
+  module * { export * }
+}
