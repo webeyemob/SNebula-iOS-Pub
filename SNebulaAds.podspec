@@ -12,4 +12,8 @@ Pod::Spec.new do |spec|
   spec.dependency 'NathAds', '~> 1.1.9'
   spec.dependency 'DataFlyer'
   spec.dependency 'EventsIOSdk'
+  spec.pod_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+  }
+  spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 end
