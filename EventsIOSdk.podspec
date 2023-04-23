@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/webeyemob/SNebula-iOS-Pub"
   spec.license      = { :type => 'MIT', :file => "EventsIOSdk_#{spec.version}/LICENSE" }
   spec.author       = "SNebule"
-  spec.platform     = :ios, "12.0"
+  spec.platform     = :ios, "9.0"
   spec.source       = { :http => "https://github.com/webeyemob/SNebula-iOS-Pub/raw/master/EventsIOSdk/EventsIOSdk_#{spec.version}.zip" }
   spec.vendored_frameworks  = "EventsIOSdk_#{spec.version}/EventsIOSdk.xcframework"
   spec.frameworks       = 'SystemConfiguration'
