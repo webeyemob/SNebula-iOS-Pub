@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
   spec.name         = "SNebulaAdMediation_KuaiShou"
   spec.version      = "3.3.44.0"
-  spec.summary      = "KuaiShow GDT Adapters for mediating through SNebula Ads."
+  spec.summary      = "KuaiShou Adapters for mediating through SNebula Ads."
   spec.homepage     = "https://github.com/webeyemob/SNebula-iOS-Pub"
   spec.license      = { :type => 'MIT', :file => "SNebulaAdMediation_KuaiShou_#{spec.version}/LICENSE" }
   spec.author       = "SNebulaAds"
