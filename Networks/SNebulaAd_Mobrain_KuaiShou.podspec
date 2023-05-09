@@ -6,6 +6,6 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => 'MIT', :file => "SNebulaAd_Mobrain_KuaiShou_#{spec.version}/LICENSE" }
   spec.author       = "SNebulaAds"
   spec.platform     = :ios, "12.0"
-  spec.source       = { :http => "https://github.com/webeyemob/TaurusXAds_iOS_Pub/raw/master/Networks/SNebulaAd_Mobrain_KuaiShou/SNebulaAd_Mobrain_KuaiShou_#{spec.version}.zip" }
+  spec.source       = { :http => "https://github.com/webeyemob/SNebula-iOS-Pub/raw/master/Networks/SNebulaAd_Mobrain_KuaiShou/SNebulaAd_Mobrain_KuaiShou_#{spec.version}.zip" }
   spec.vendored_frameworks  = "SNebulaAd_Mobrain_KuaiShou_#{spec.version}/ABUAdKsAdapter.framework"
 end
