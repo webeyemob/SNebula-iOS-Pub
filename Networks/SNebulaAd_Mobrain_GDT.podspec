@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/webeyemob/SNebula-iOS-Pub"
   spec.license      = { :type => 'MIT', :file => "SNebulaAd_Mobrain_GDT_#{spec.version}/LICENSE" }
   spec.author       = "SNebulaAds"
-  spec.platform     = :ios, "12.0"
+  spec.platform     = :ios, "9.0"
   spec.source       = { :http => "https://github.com/webeyemob/SNebula-iOS-Pub/raw/master/Networks/SNebulaAd_Mobrain_GDT/SNebulaAd_Mobrain_GDT_#{spec.version}.zip" }
   spec.vendored_frameworks  = "SNebulaAd_Mobrain_GDT_#{spec.version}/ABUAdGdtAdapter.framework"
 end
