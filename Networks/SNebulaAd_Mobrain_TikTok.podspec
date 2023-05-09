@@ -7,5 +7,5 @@ Pod::Spec.new do |spec|
   spec.author       = "SNebulaAds"
   spec.platform     = :ios, "12.0"
   spec.source       = { :http => "https://github.com/webeyemob/SNebula-iOS-Pub/raw/master/Networks/SNebulaAd_Mobrain_TikTok/SNebulaAd_Mobrain_TikTok_#{spec.version}.zip" }
-  spec.vendored_frameworks  = "SNebulaAd_Mobrain_TikTok_#{spec.version}/SNebulaAd_Mobrain_TikTok.xcframework"
+  spec.vendored_frameworks  = "SNebulaAd_Mobrain_TikTok_#{spec.version}/ABUAdCsjAdapter.framework"
 end
