@@ -7,6 +7,6 @@ Pod::Spec.new do |spec|
   spec.author       = "SNebulaAds"
   spec.platform     = :ios, "12.0"
   spec.source       = { :http => "https://github.com/webeyemob/SNebula-iOS-Pub/raw/master/SNebulaAdMediation_Mobrain/SNebulaAdMediation_Mobrain_#{spec.version}.zip" }
-  spec.vendored_frameworks  = "SNebulaAdMediation_Mobrain_#{spec.version}/SNebulaAdMediation_Mobrain.xcframework"
+  spec.vendored_frameworks  = "SNebulaAdMediation_Mobrain_#{spec.version}/SNebulaAdMediation_Mobrain.xcframework, SNebulaAdMediation_Mobrain_#{spec.version}/ABUAdSDK.framework"
   spec.dependency "SNebulaAds"
 end
