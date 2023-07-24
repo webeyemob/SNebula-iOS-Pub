@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "SNebulaAdMediation_TikTok_CN"
-  spec.version      = "4.9.0.6"
+  spec.version      = "4.9.0.6.1"
   spec.summary      = "TikTok CN Adapters for mediating through SNebula Ads."
   spec.homepage     = "https://github.com/webeyemob/SNebula-iOS-Pub"
   spec.license      = { :type => 'MIT', :file => "SNebulaAdMediation_TikTok_#{spec.version}/LICENSE" }
